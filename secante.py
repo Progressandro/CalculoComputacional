@@ -1,9 +1,9 @@
 import math
 from tabulate import tabulate
+import numpy as np
 
-
-def f(x): 
-  return x - 0.8 - (0.2*math.sin(x))
+def f(x):
+  return np.float32(pow(2 * x, 3) - ((34/7) * pow(x,2))  + ((209/49) * x) - (173/343))
 
 def metodo_secante(x0, x1, e, n, f):
   i = 1
