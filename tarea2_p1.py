@@ -43,3 +43,7 @@ def getLowestPoint(f, df, x0, e, n):
     return x0 
 
 newton(f, df, 3.5, e, N)
+newton(f, df, 3.6, e, N)
+newton(f, df, 3.7, e, N)
+newton(f, df, 3.8, e, N)
+newton(f, df, 3.9, e, N)
